@@ -31,7 +31,7 @@ namespace Chapter.Singleton
         }
         void OnGUI()
         {
-            
+
             if (GUI.Button(new Rect(10, Screen.height - 60, 150, 40), "Next Scene"))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
