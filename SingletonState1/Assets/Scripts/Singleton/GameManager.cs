@@ -31,10 +31,10 @@ namespace Chapter.Singleton
         }
         void OnGUI()
         {
+            GUILayout.Space(150);
             if (GUILayout.Button("Next Scene"))
             {
-                SceneManager.LoadScene(
-                SceneManager.GetActiveScene().buildIndex + 1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
